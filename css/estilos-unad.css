@@ -1,1 +1,131 @@
-/*Aquí irán los estilos CSS3*/
+/*Aquí irán los estilos CSS3 acordes con la
+identidad institucional de la UNAD*/
+
+.nav-unad {
+    background-color: #ffffff;
+    font-size: 1.4em;
+    color: #005883;
+}
+
+.nav-unad .navbar-toggler {
+    color: rgba(244, 121, 32, 0.5);
+    border-color: rgba(244, 121, 32, 0.1);
+}
+
+.nav-unad .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(244, 121, 32, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-unad div a {
+    background-color: #005883;
+    color: #ffffff;
+    padding-left: 0.5rem !important;
+    border-left: 0.08em solid #ffffff;
+}
+
+.active-unad {
+    background-color: #f0b429 !important;
+}
+
+header {
+    border-bottom: 0.2em solid #f47920;
+    margin-bottom: 1em;
+}
+
+.btn-blue-unad {
+    color: #fff;
+    background-color: #005883;
+    border-color: #005883;
+}
+
+.btn-blue-unad:hover {
+    color: #fff;
+    background-color: #005883;
+    border-color: #005883;
+}
+
+.btn-blue-unad:focus,
+.btn-blue-unad.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 88, 131, 0.5);
+}
+
+.btn-orange-unad {
+    color: #fff;
+    background-color: #f47920;
+    border-color: #f47920;
+}
+
+.btn-orange-unad:hover {
+    color: #fff;
+    background-color: #f0b429;
+    border-color: #f0b429;
+}
+
+.btn-orange-unad:focus,
+.btn-orange-unad.focus {
+    box-shadow: 0 0 0 0.2rem rgba(244, 121, 32, 0.5);
+}
+
+.text-blue-unad {
+    color: #005883;
+}
+
+.text-yellow-unad {
+    color: #f0b429;
+}
+
+.text-orange-unad {
+    color: #f47920;
+}
+
+.text-gray1-unad {
+    color: #333333;
+}
+
+.text-gray2-unad {
+    color: #808080;
+}
+
+.text-gray3-unad {
+    color: #b3b3b3;
+}
+
+.bg-blue-unad {
+    background-color: #005883;
+}
+
+.bg-yellow-unad {
+    background-color: #f0b429;
+}
+
+.bg-orange-unad {
+    background-color: #f47920;
+}
+
+.bg-gray1-unad {
+    background-color: #333333;
+}
+
+.bg-gray2-unad {
+    background-color: #808080;
+}
+
+.bg-gray3-unad {
+    background-color: #b3b3b3;
+}
+
+.border-blue-unad {
+    border-color: #005883 !important;
+}
+
+.border-yellow-unad {
+    border-color: #f0b429 !important;
+}
+
+.border-orange-unad {
+    border-color: #f47920 !important;
+}
+
+.border-gray1-unad {
+    border-color: #333333!important;
+}

@@ -3,15 +3,143 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos-unad.css">
+
     <title>OVI Logica de Programación - UNAD</title>
 </head>
 
 <body>
-    <H1>OVI Lógica de Programación</H1>
-    <P>Este sitio web será el OVI para el curso <b>204022 -Lógica de Programación</b> </P>
-    <P>Proximamente más avances... </P>
+
+    <header>
+        <nav class="navbar navbar-expand-lg nav-unad">
+            <a class="navbar-brand" href="#">
+                <img src="img/logoUNAD.png" width="250" class="d-inline-block align-top" alt="logo unad" title="logo unad">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active-unad" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="lecturas.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Lecturas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Lectura 1</a>
+                            <a class="dropdown-item" href="#">Lectura 2</a>
+                            <a class="dropdown-item" href="#">Lectura 3</a>
+                            <a class="dropdown-item" href="#">Lectura 4</a>
+                            <a class="dropdown-item" href="#">Lectura 5</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="multimedia.html">Multimedia</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="actividades.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Actividades
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Actividad 1</a>
+                            <a class="dropdown-item" href="#">Actividad 2</a>
+                            <a class="dropdown-item" href="#">Actividad 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autor.html">Autor</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <section class="col col-md-9 col-12">
+                <H1 class="text-center text-blue-unad border-bottom border-blue-unad pb-2 mb-3">OVI Lógica de Programación</H1>
+                <article>
+                    <h2 class="text-center text-orange-unad mb-3">Métodos de Ordenación</h2>
+                    <div class="card-deck mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Objetivo general:</h5>
+                                <p class="card-text">Permitir al usuario de este OVI familiarizarse con los métodos de ordenación de arreglos de elementos para que desarrolle una lógica acertada y eficiente en el momento de resolver algoritmos en sus actividades de programación.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Objetivo específico 1:</h5>
+                                <p class="card-text">Reconocer la importancia de la ordenación de elementos en el campo de la computación y la investigación y reconocerlos como una actividad frecuente en la lógica de la programación.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Objetivo específico 2:</h5>
+                                <p class="card-text">Aprender a ordenar un arreglo de elementos usando cualquiera de los tres métodos aquí expuestos y reconocer las ventajas y desventajas de cada uno de ellos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="img/metodo-burbuja.jpg" class="card-img-top" alt="Método Burbuja">
+                            <div class="card-body">
+                                <h5 class="card-title">Método Burbuja</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="btn btn-orange-unad">Leer más...</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/metodo-seleccion.jpg" class="card-img-top" alt="Método Selección">
+                            <div class="card-body">
+                                <h5 class="card-title">Método por Selección</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-orange-unad">Leer más...</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/metodo-insercion.jpg" class="card-img-top" alt="Método Inserción">
+                            <div class="card-body">
+                                <h5 class="card-title">Método por Inserción</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <a href="#" class="btn btn-orange-unad">Leer más...</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </section>
+            <section class="col col-md-3 col-12">
+                sidebar
+            </section>
+
+        </div>
+
+
+
+    </div>
+    <footer class="bg-gray1-unad p-3 mt-4 text-white">
+        <div class="row">
+            <div class="col col-md-6 col-12 mb-4 text-center">
+                <img src="img/logo-unad-footer.png" width="310" height="76" alt="logo unad footer" title="logo unad footer">
+            </div>
+            <div class="col col-md-6 col-12 text-center">
+                <p>Sede nacional José Celestino Mutis: Calle 14 sur No. 14 - 23<br> PBX: ( +57 1 ) 344 3700 Bogotá D.C., Colombia<br> Línea nacional gratuita desde Colombia: 018000115223<br> Atención al usuario: atencionalusuario@unad.edu.co<br> Institución
+                    de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
