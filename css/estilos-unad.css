@@ -129,3 +129,7 @@ header {
 .border-gray1-unad {
     border-color: #333333!important;
 }
+
+.card-autor {
+    max-width: 25rem;
+}
